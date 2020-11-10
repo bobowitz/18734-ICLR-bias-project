@@ -1,3 +1,8 @@
+# get_country_from_authorid_domains.py
+#
+# Guesses the country of each email domain and adds a new field 'authorid_domain_countries' to each json
+# containing country codes
+
 import json
 import os
 import tqdm
